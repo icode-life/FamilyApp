@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "sass": "node-sass styles/ -o css/",
     "prebuild:css": "rm -rf wwwroot/css",
     "build:css": "sass --style compressed --no-source-map Styles:wwwroot/css",
     "postbuild:css": "postcss wwwroot/css/site.css --replace",
