@@ -25,18 +25,17 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.11" />
     <PackageReference Include="BuildWebCompiler" Version="1.12.405" />
-    <PackageReference Include="Dolkens.Framework.TaskRunners" Version="8.9.1.5" />
     <PackageReference Include="FontAwesome.MVC" Version="1.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\Assets\" />
-    <Folder Include="wwwroot\Assets\images\" />
     <Folder Include="Styles\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="wwwroot\Assets\" />
-    <Content Remove="wwwroot\Styles\EmptySCSSFile.scss" />
-    <Content Remove="wwwroot\Assets\images\" />
+    <Content Remove="wwwroot\images\" />
   </ItemGroup>
 </Project>
